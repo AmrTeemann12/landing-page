@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/brams');
+@font-face {
+    font-family: canterbury;
+    src: url('../fonts/canterbury/Canterbury.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'playfair display', 'Courier New', Courier, monospace;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+header a{
+    text-decoration-line: none;
+    color: #c47535;
+}
+
+header{
+    padding: 16px 32px;
+    background-color: #5F382F;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    gap: 16px;
+}
+
+.name{
+    border-left: 3px solid #d2aa8b;
+    padding-left: 16px;
+}
+
+.logo h1{
+    color: #d2aa8b;
+    font-family: canterbury, 'playfair display';
+    font-size: 36px;
+    margin: 0;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    padding: 0;
+    margin-left: 8px;
+}
+
+.nav li{
+    height: 30px;
+    padding: 0;
+    padding-left: 8px;
+    border-left: 1px solid #c47535;
+}

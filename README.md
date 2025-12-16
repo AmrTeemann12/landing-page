@@ -1,1 +1,2 @@
 # landing-page
+In this project I'll build a landing page layout with HTML & CSS based on a layout design image. The project demonstrates the knowledge of HTML & CSS and how to utilize it for creating an entire web page.
