@@ -59,3 +59,50 @@ header{
     padding-left: 8px;
     border-left: 1px solid #c47535;
 }
+
+#hero{
+    background-color: #5F382F;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 64px 32px;
+}
+
+.intro{
+    width: 450px;
+    height: auto;
+}
+
+.intro h1{
+    font-size: 48px;
+    margin: 0;
+    color: #d2aa8b;
+}
+
+.intro p{
+    color: #c47535;
+}
+
+.intro button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    color: #d2aa8b;
+    background-color: #8a2b2b;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.image{
+    width: 450px;
+    height: auto;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.
