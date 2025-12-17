@@ -12,6 +12,7 @@ body{
     width: 100%;
     height: auto;
     margin: 0;
+    background-color: #5F382F;
 }
 
 header a{
@@ -21,7 +22,6 @@ header a{
 
 header{
     padding: 16px 32px;
-    background-color: #5F382F;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -61,8 +61,12 @@ header{
     border-left: 1px solid #c47535;
 }
 
+main{
+    width: 100%;
+}
+
 #hero{
-    background-color: #5F382F;
+    flex: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -85,14 +89,19 @@ header{
     color: #c47535;
 }
 
-.intro button{
-    border: none;
+.box{
     border-radius: 8px;
     padding: 8px 24px;
+    font-size: 16px;
+}
+
+.button{
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
     color: #d2aa8b;
     background-color: #8a2b2b;
-    font-size: 16px;
-    cursor: pointer;
+
 }
 
 .image{
@@ -107,6 +116,7 @@ header{
 }
 
 #info{
+    flex: none;
     background-color: #d2aa8b;
     color: #5F382F;
     padding: 32px;
@@ -130,7 +140,7 @@ header{
 }
 
 .card{
-    max-width: 170px;
+    max-width: 160px;
     height: auto;
 }
 
@@ -155,4 +165,99 @@ header{
 .card p{
     margin: 0;
     text-align: center;
+}
+
+.card:hover{
+    scale: 1.1;
+}
+
+#quote{
+    flex: none;
+    background-color: #c47535;
+    color:#463333;
+    padding: 96px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.wise{
+    max-width: 900px;
+    height: auto;
+    
+}
+
+ .wise h1{
+    font-weight: 300;
+    font-style: italic;
+ }
+
+ .wise p{
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+    margin-top: -24px;
+ }
+
+ #action{
+    flex: 1;
+    background-color: #d2aa8b;
+    padding: 80px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.box.bottom{
+    width: 800px;
+    background-color: #8a2b2b;
+    color: #d2aa8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    flex-wrap: wrap;
+    padding: 32px;
+ }
+
+ #lower-box{
+    max-width: 500px;
+ }
+
+ #lower-box h2,
+ p
+ {
+    margin: 0;
+ }
+
+ .join{
+    margin-left: auto;
+    margin: 32px;
+    flex-shrink: 0;
+    color: #d2aa8b;
+    background-color: #8a2b2b;
+    border: 2px solid #d2aa8b;
+    cursor: pointer;
+ }
+
+ .join:hover{
+    background-color: #d2aa8b;
+    color: #8a2b2b;
+ }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 32px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
